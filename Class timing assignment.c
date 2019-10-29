@@ -4,10 +4,10 @@
 int main()
 {
     printf(" Hikmatullah Khan (Roll No=15)");
-    int monday,tuesday,wednesday,thursday,friday,saturday,sunday;
+    int week;
     printf("\nEnter number of week day(1-7)=");
-    scanf("%d", &monday,tuesday,wednesday,thursday,friday,saturday,sunday);
-    switch(monday,tuesday,wednesday,thursday,friday,saturday,sunday)
+    scanf("%d", &week);
+    switch(week)
     {
     case 1:
         printf("Monday,""\nLacture (ICT)""\n prof Asfand yar"" \nclass timing:9:30 to 12:00 o'clock");
